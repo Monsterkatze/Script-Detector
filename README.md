@@ -1,2 +1,3 @@
-# LeagueSharpPrivate
-Private assemblies NOT (allowed) on joduska.me
+# LeagueSharp Assembly
+Detects and Tells you Everyone in your game thats useing Scripts via High Number Count
+
