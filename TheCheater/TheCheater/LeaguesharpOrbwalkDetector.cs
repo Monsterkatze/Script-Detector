@@ -11,7 +11,7 @@ namespace TheCheater
 {
     class LeaguesharpOrbwalkDetector : IDetector
     {
-        private const float RandomizerFactor = 2f / 3f; // Even though the distance in l# can be set, it is only randomized from 0.8x distance to 1.2x distance, which is a 2/3 relationship
+        private const float RandomizerFactor = 2f / 3f; // Even though the distance in l# can be set, it is only randomized from 0.8x distance to 1.2x distance, which is a 2/3 realtinoshi[]
         private int _scripting;
         private Obj_AI_Hero _hero;
         private readonly List<DataSet> _recentData = new List<DataSet>();
