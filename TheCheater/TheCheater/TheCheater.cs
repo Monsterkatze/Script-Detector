@@ -56,7 +56,7 @@ namespace TheCheater
             Drawing.DrawLine(new Vector2(_screenPos.X, _screenPos.Y + 15), new Vector2(_screenPos.X + 180, _screenPos.Y + 15), 2, Color.Red);
            
             var column = 1;
-            Drawing.DrawText(_screenPos.X, _screenPos.Y, Color.Red, "Cheat-pattern detection:");
+            Drawing.DrawText(_screenPos.X, _screenPos.Y, Color.Red, "Cheat-Pattern Detection:");
             foreach (var detector in _detectors)
             {
                 var maxValue = detector.Value.Max(item => item.GetScriptDetections());
